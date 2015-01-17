@@ -1,0 +1,25 @@
+{
+  "name": "create-component",
+  "version": "0.1.0",
+  "description": "Create components.",
+  "main": "create-component.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/butterandfly/create-component.git"
+  },
+  "keywords": [
+    "component"
+  ],
+  "author": "Zero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/butterandfly/create-component/issues"
+  },
+  "homepage": "https://github.com/butterandfly/create-component",
+  "dependencies": {
+    "template": "^0.6.2"
+  }
+}
