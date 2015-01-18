@@ -68,7 +68,10 @@ module.exports = createComp;
 
 // 从模板中创建文件
 function createFileFromTpl(tplPath, object, destPath) {
+	console.log('start createFileFromTpl()');
 	var data = fs.readFileSync(tplPath)
+	console.log('data: ', data);
+	console.log('object: ', object);
 	var contents = template(data.toString(), object);
 	fs.writeFileSync(destPath, contents);
 }
